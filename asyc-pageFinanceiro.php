@@ -20,53 +20,6 @@ include('asyc-topo.php');
 
 <body>
 
-  <!-- <button class="btn btn-dark d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasResponsive" aria-controls="offcanvasResponsive"><i class="fa-solid fa-bars fa-xl" style="color: #ffffff;"></i></button>
-
-<div class="offcanvas-lg offcanvas-end" tabindex="-1" id="offcanvasResponsive" aria-labelledby="offcanvasResponsiveLabel">
-  <div class="offcanvas-header">
-    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasResponsive" aria-label="Close"></button>
-  </div>
-  <div class="offcanvas-body"> 
-
-    <div class="col-md-2">
-
-      <div class=" m-5" >
-        <span class="fs-4">M E N U</span>
-      </div>
-      <hr>
-
-      <ul class="nav flex-column ">
-        <li class="nav-item m-3">
-          <a class="nav-link active fs-5 text-reset" aria-current="page" href="#">
-            <i class="fa-solid fa-magnifying-glass-dollar" style="color: #000000;"></i>
-            Visão Geral
-          </a>
-        </li>
-        <hr>
-        <li class="nav-item m-3">
-          <a class="nav-link fs-5 text-reset" href="#">
-            <i class="fa-solid fa-money-bill-transfer" style="color: #000000;"></i>
-            Movimentações
-          </a>
-        </li>
-        <hr>
-        <li class="nav-item m-3">
-          <a class="nav-link fs-5 text-reset" href="#">
-            <i class="fa-solid fa-money-bill-trend-up" style="color: #000000;"></i>
-            Lançamentos
-          </a>
-        </li>
-        <hr>
-        <li class="nav-item m-3">
-          <a class="nav-link fs-5 text-reset" href="financeiroConta.php">
-            <i class="fa-solid fa-file-invoice-dollar" style="color: #000000;"></i>
-            Contas
-          </a>
-        </li>
-      </ul>
-    </div>
-  </div> -->
-
   <button class="btn btn-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><i class="fa-solid fa-bars fa-xl" style="color: #ffffff;"></i> Menu</button>
     <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
         <div class="offcanvas-header">
