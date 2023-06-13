@@ -20,55 +20,49 @@ include('asyc-topo.php');
 
 <body>
 
-    <button class="btn btn-dark d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasResponsive" aria-controls="offcanvasResponsive"><i class="fa-solid fa-bars fa-xl" style="color: #ffffff;"></i></button>
-
-    <div class="offcanvas-lg offcanvas-end" tabindex="-1" id="offcanvasResponsive" aria-labelledby="offcanvasResponsiveLabel">
+    <button class="btn btn-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><i class="fa-solid fa-bars fa-xl" style="color: #ffffff;"></i> Menu</button>
+    <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
         <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasResponsiveLabel"></h5>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasResponsive" aria-label="Close"></button>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
-    <div class="offcanvas-body "> 
-
-        <div class="col-md-2">
-
-            <div class=" m-5" >
+        <div class="offcanvas-body">
+            <div class=" m-3" >
                 <span class="fs-4">M E N U</span>
             </div>
             <hr>
-
+        
             <ul class="nav flex-column ">
-                <li class="nav-item m-3">
+                <li class="nav-item m-2">
                     <a class="nav-link active fs-5 text-reset" aria-current="page" href="#">
-                    <i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i>
+                        <i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i>
                         Visão Geral
                     </a>
                 </li>
                 <hr>
-                <li class="nav-item m-3">
+                <li class="nav-item m-2">
                     <a class="nav-link fs-5 text-reset" href="#">
-                    <i class="fa-solid fa-money-check-dollar" style="color: #000000;"></i>
-                    Orçamento
+                        <i class="fa-solid fa-money-check-dollar" style="color: #000000;"></i>
+                        Orçamento
                     </a>
                 </li>
                 <hr>
                 <li class="nav-item m-3">
                     <a class="nav-link fs-5 text-reset" href="#">
-                    <i class="fa-solid fa-money-bill-trend-up" style="color: #000000;"></i>
-                    Lançamentos
+                        <i class="fa-solid fa-magnifying-glass-location" style="color: #000000;"></i>
+                        Localizar
                     </a>
                 </li>
                 <hr>
                 <li class="nav-item m-3">
                     <a class="nav-link fs-5 text-reset" href="asyc-formOrdemdeservico.php">
-                    <i class="fa-solid fa-plus" style="color: #000000;"></i>
-                    Criar
+                        <i class="fa-solid fa-plus" style="color: #000000;"></i>
+                        Criar
                     </a>
                 </li>
             </ul>
-
         </div>
     </div>
 
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
 </html>
