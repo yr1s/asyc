@@ -76,7 +76,7 @@ include('asyc-topo.php');
         <div class="card-header text-center text-white bg-dark">
             Serviços em aberto
         </div>
-        <div class="card-body">
+        <div class="card-body table-responsive">
             <table class="table table-hover table-striped ">
                 <thead>
                     <tr>

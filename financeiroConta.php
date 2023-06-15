@@ -62,7 +62,7 @@ include('asyc-topo.php');
       
       
       <div class="card col-md-9 ms-auto me-auto mt-2">
-        <div class="card-body">
+        <div class="card-body table-responsive">
           <div class=" me-auto ms-auto ">
             <table class="table table-hover table-striped ">
               <thead>
