@@ -75,18 +75,25 @@ include('asyc-topo.php');
                         </div>
 
                         <div class="col-md-6">
-                            <label class="form-label" for="status">Status</label>
+                            <label class="form-label" for="status">Status de andamento de serviço</label>
                             <select  class="form-control" id="status">
-                                <option>...</option>
-                                <option>...</option>
+                                <option>Entrada</option>
+                                <option>Diagnóstico pronto</option>
+                                <option>Orçamento aprovado</option>
+                                <option>Em execução</option>
+                                <option>Finalizado</option>
+                                <option>Testado</option>
+                                <option>Cliente avisado (veiculo retirado)</option>
+                                
                             </select>
                         </div>
 
                         <div class="col-md-6">
                             <label class="form-label" for="priority">Prioridade</label>
                             <select  class="form-control" id="priority">
-                                <option>...</option>
-                                <option>...</option>
+                                <option>Urgente</option>
+                                <option>Medio</option>
+                                <option>Leve</option>
                             </select>
                         </div>
 

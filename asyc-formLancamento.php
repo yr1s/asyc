@@ -29,6 +29,15 @@ include('asyc-topo.php');
                 <h1 class="display-4">Novo lançamento</h1>
 
             <form action=""  class="row">
+                    <div class="col-12">
+                        <label class="form-label" for="">Tipo de lançamento</label>
+                        <select  class="form-control" id="">
+                            <option>Receita (Entrada)</option>
+                            <option>Despesa (Saida)</option>
+                        </select>
+                    </div>
+                
+
                 <div class="col-12">
                     <label class="form-label" for="cost">Valor</label> 
                     <input class="form-control" type="text" id="cost">
@@ -37,11 +46,6 @@ include('asyc-topo.php');
                 <div class="col-12">
                     <label class="form-label" for="description">Descrição</label>
                     <textarea id="description" class="form-control"></textarea>
-                </div>
-
-                <div class="col-12">
-                    <label class="form-label" for="accountingMovementType">Tipo de movimento de conta</label>
-                    <input class="form-control" type="text" id="accountingMovementType">
                 </div>
 
                 <div class="col-12">
@@ -62,16 +66,19 @@ include('asyc-topo.php');
                 <div class="col-md-6">
                     <label class="form-label" for="status">Status</label>
                     <select  class="form-control" id="status">
-                        <option>..</option>
-                        <option>..</option>
+                        <option>Aberta</option>
+                        <option>Quitada</option>
+                        <option>Vencida</option>
+                        <option>Estornada(Cancelada)</option>
                     </select>
                 </div>
 
                 <div class="col-md-6">
                     <label class="form-label" for="priority">Prioridade</label>
                     <select  class="form-control" id="priority">
-                        <option>..</option>
-                        <option>..</option>
+                        <option>Urgente</option>
+                        <option>Medio</option>
+                        <option>Leve</option>
                     </select>
                 </div>
 

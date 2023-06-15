@@ -65,18 +65,14 @@ include('asyc-topo.php');
     </div>
 
 
-    <div class="card col-md-3 ms-auto me-auto">
-        <div class="card-header text-center text-white bg-dark">
-            Realizar Lançamento
+   
+        <div class="d-flex justify-content-center">
+                <button type="button" class="btn btn-warning"  >
+                    <a href="asyc-formLancamento.php" class="text-reset">Novo lançamento</a>
+                 </button>
+        
         </div>
-        <div class="card-body">
-            <div class="btn-group btn-group-lg" role="group" aria-label="Basic mixed styles example">
-                <button type="button" class="btn btn-success">Receita</button>
-                <button type="button" class="btn btn-danger">Despesa</button>
-                <button type="button" class="btn btn-warning">Transferência</button>
-            </div>
-        </div>
-    </div>   
+       
     
     <div class="card mt-5 col-md-9 ms-auto me-auto">
         <div class="card-header text-center text-white bg-dark">

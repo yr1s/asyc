@@ -1,6 +1,6 @@
 
 <?php
-include('../asyc-topo.php');
+include('asyc-topo.php');
 ?>
 
 <!DOCTYPE html>
@@ -17,7 +17,7 @@ include('../asyc-topo.php');
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
     <!-- estilo customizado -->
-    <link rel="stylesheet" href="assets/css/estiloFormCliente">
+   
 
     <title>ASYC - sistema ERP</title>
 </head>

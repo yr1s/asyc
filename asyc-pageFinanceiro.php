@@ -47,7 +47,7 @@ include('asyc-topo.php');
                 </li>
                 <hr>
                 <li class="nav-item m-3">
-                    <a class="nav-link fs-5 text-reset" href="#">
+                    <a class="nav-link fs-5 text-reset" href="financeiroLancamento.php">
                       <i class="fa-solid fa-money-bill-trend-up" style="color: #000000;"></i>
                       Lançamentos
                     </a>

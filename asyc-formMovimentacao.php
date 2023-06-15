@@ -66,16 +66,20 @@ include('asyc-topo.php');
                 <div class="col-md-6">
                     <label class="form-label" for="status">Status</label>
                     <select  class="form-control" id="status">
-                        <option>..</option>
-                        <option>..</option>
+                        <option>Aberta</option>
+                        <option>Quitada</option>
+                        <option>Vencida</option>
+                        <option>Estornada</option>
+
                     </select>
                 </div>
 
                 <div class="col-md-6">
                     <label class="form-label" for="priority">Prioridade</label>
                     <select  class="form-control" id="priority">
-                        <option>..</option>
-                        <option>..</option>
+                        <option>Urgente</option>
+                        <option>Médio</option>
+                        <option>Leve</option>
                     </select>
                 </div>
 

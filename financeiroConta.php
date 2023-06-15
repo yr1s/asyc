@@ -75,7 +75,10 @@ include('asyc-topo.php');
       </div>
       
       
-      <div class="col-md-10 me-auto ms-auto ">
+      <div class="card col-md-9 ms-auto me-auto mt-2">
+         <div class="card-body">
+         
+          <div class=" me-auto ms-auto ">
         <table class="table table-hover table-striped ">
           <thead>
             <tr>
@@ -106,6 +109,9 @@ include('asyc-topo.php');
             </tr>
           </tbody>
         </table>
+            </div>
+         
+         </div>      
       </div>
   
 

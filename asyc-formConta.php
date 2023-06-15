@@ -27,37 +27,19 @@ include('asyc-topo.php');
                     <h1 class="display-4">Conta</h1>
                     <form class="row" action="" >
 
-                        <div class=" col-md-6">
+                        <div class=" col-12">
                             <label class="form-label" for="accountType">Tipo de conta</label>
                             <input class="form-control" type="text" id="accountType">
                         </div>
                         
-                        <div class="col-md-6">
-                            <label class="form-label" for="status">Status</label>
-                            <select  class="form-control" id="status">
-                                <option>...</option>
-                                <option>...</option>
-                            </select>
-                        </div>
+                   
 
                         <div class="col-12">
                             <label class="form-label" for="description">Descrição</label>
-                            <textarea class="form-control" id="description"></textarea>
+                            <textarea class="form-control" id="description" placeholder="Nome do banco"></textarea>
                         </div>
 
-                        <div class="col-md-6">
-                            <label class="form-label" for="income">Income</label>
-                            <input class="form-control" type="text" id="income">
-                        </div>
-                        
-                        <div class="col-md-6">
-                            <label class="form-label" for="expense">Expense</label>
-                            <select  class="form-control" type="text" id="expense">
-                                <option>...</option>
-                                <option>...</option>
-                            </select>
-                        </div>
-
+                
                     </form>
 
                     <div class="d-grid mt-3">
