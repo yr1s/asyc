@@ -64,17 +64,17 @@ include('asyc-topo.php');
     </div>
 
 
-    <div class="d-flex justify-content-end mt-5 col-md-9 ms-auto me-auto">
+    <!-- <div class="d-flex justify-content-center mt-5">
                 <button type="button" class="btn btn-danger"  >
                     <a href="asyc-formCliente.php" class="text-reset link-underline link-underline-opacity-0">Nova Ordem de Serviço</a>
                 </button>
         
-        </div>
+        </div> -->
     
     
     <div class="card mt-5 col-md-9 ms-auto me-auto">
         <div class="card-header text-center text-white bg-dark">
-            Serviços em aberto
+            Ordens de serviço
         </div>
         <div class="card-body">
             <table class="table table-hover table-striped ">
@@ -84,7 +84,8 @@ include('asyc-topo.php');
                         <th scope="col">Cliente</th>
                         <th scope="col">Veiculo</th>
                         <th scope="col">Entrada</th>
-                        <th scope="col">Previsão de entrega</th>
+                        <th scope="col">Pronto</th>
+                        <th scope="col">Saida</th>
                         <th scope="col">Status</th>
                         <th scope="col">Detalhes</th>
                         
@@ -96,6 +97,7 @@ include('asyc-topo.php');
                         <td>Clovis</td>
                         <td>Fiat</td>
                         <td>05/07/2013</td>
+                        <td>06/10/2029</td>
                         <td>06/10/2029</td>
                         <td>Em andamento</td>
                         <td>
@@ -109,6 +111,7 @@ include('asyc-topo.php');
                         <td>Clovis</td>
                         <td>Fiat</td>
                         <td>05/07/2013</td>
+                        <td>06/10/2029</td>
                         <td>06/10/2029</td>
                         <td>Em andamento</td>
                         <td>

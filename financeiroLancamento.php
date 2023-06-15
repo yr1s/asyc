@@ -33,20 +33,6 @@ include('asyc-topo.php');
             <hr>
         
             <ul class="nav flex-column ">
-                <li class="nav-item m-2">
-                    <a class="nav-link active fs-5 text-reset" aria-current="page" href="#">
-                        <i class="fa-solid fa-magnifying-glass-dollar" style="color: #000000;"></i>
-                        Visão Geral
-                    </a>
-                </li>
-            <hr>
-                <li class="nav-item m-2">
-                    <a class="nav-link fs-5 text-reset" href="#">
-                        <i class="fa-solid fa-money-bill-transfer" style="color: #000000;"></i>
-                        Movimentações
-                    </a>
-                </li>
-            <hr>
                 <li class="nav-item m-3">
                     <a class="nav-link fs-5 text-reset" href="financeiroConta.php">
                         <i class="fa-solid fa-money-bill-trend-up" style="color: #000000;"></i>
@@ -68,8 +54,8 @@ include('asyc-topo.php');
    
         <div class="d-flex justify-content-center">
                 <button type="button" class="btn btn-warning"  >
-                    <a href="asyc-formLancamento.php" class="text-reset">Novo lançamento</a>
-                 </button>
+                    <a href="asyc-formLancamento.php" class="text-reset link-underline link-underline-opacity-0">Novo lançamento</a>
+                </button>
         
         </div>
        

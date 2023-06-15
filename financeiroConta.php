@@ -32,20 +32,6 @@ include('asyc-topo.php');
           <hr>
         
           <ul class="nav flex-column ">
-            <li class="nav-item m-2">
-              <a class="nav-link active fs-5 text-reset" aria-current="page" href="#">
-                <i class="fa-solid fa-magnifying-glass-dollar" style="color: #000000;"></i>
-                Visão Geral
-              </a>
-            </li>
-          <hr>
-            <li class="nav-item m-2">
-              <a class="nav-link fs-5 text-reset" href="#">
-                <i class="fa-solid fa-money-bill-transfer" style="color: #000000;"></i>
-                Movimentações
-              </a>
-            </li>
-          <hr>
             <li class="nav-item m-3">
               <a class="nav-link fs-5 text-reset" href="financeiroLancamento.php">
                 <i class="fa-solid fa-money-bill-trend-up" style="color: #000000;"></i>
@@ -62,65 +48,56 @@ include('asyc-topo.php');
           </ul>
   </div>
 </div>
-  <div class="row">
+
 
     <div class="d-flex justify-content-around mt-5">
       <p class="fs-3">
         Contas bancarias
-        </p>
-      
-        <button type="button" class="btn btn-danger ">
-          <a class="text-reset" href="asyc-formConta.php">Nova conta</a>
-        </button>
-      </div>
+      </p>
+      <button type="button" class="btn btn-danger ">
+        <a class="text-reset link-underline link-underline-opacity-0" href="asyc-formConta.php">Nova conta</a>
+      </button>
+    </div>  
+
       
       
       <div class="card col-md-9 ms-auto me-auto mt-2">
-         <div class="card-body">
-         
+        <div class="card-body">
           <div class=" me-auto ms-auto ">
-        <table class="table table-hover table-striped ">
-          <thead>
-            <tr>
-              <th scope="col">Banco</th>
-              <th scope="col">Tipo</th>
-              <th scope="col">Saldo geral</th>
-              <th scope="col">Status</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td scope="row">Caixa</td>
-              <td>CC</td>
-              <td>2000</td>
-              <td>Ativo</td>
-            </tr>
-            <tr>
-              <td scope="row">Nubank</td>
-              <td>CC</td>
-              <td>24.0000</td>
-              <td>Ativo</td>
-            </tr>
-            <tr>
-              <td scope="row">Santander</td>
-              <td>CP</td>
-              <td>3000</td>
-              <td>ativo</td>
-            </tr>
-          </tbody>
-        </table>
-            </div>
-         
-         </div>      
+            <table class="table table-hover table-striped ">
+              <thead>
+                <tr>
+                  <th scope="col">Banco</th>
+                  <th scope="col">Tipo</th>
+                  <th scope="col">Saldo geral</th>
+                  <th scope="col">Status</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td scope="row">Caixa</td>
+                  <td>CC</td>
+                  <td>2000</td>
+                  <td>Ativo</td>
+                </tr>
+                <tr>
+                  <td scope="row">Nubank</td>
+                  <td>CC</td>
+                  <td>24.0000</td>
+                  <td>Ativo</td>
+                </tr>
+                <tr>
+                  <td scope="row">Santander</td>
+                  <td>CP</td>
+                  <td>3000</td>
+                  <td>ativo</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>      
       </div>
   
-
-
-
-
-
-
-
 
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
